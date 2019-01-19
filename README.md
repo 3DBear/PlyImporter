@@ -1,5 +1,6 @@
 # PlyImporter
-PLY (Polygon File Format) importer for Unity
+PLY (Polygon File Format) importer for Unity.
+Feel free to open an issue if you found a .ply that does not work with this script, I'll happily make it work.
 
 ## Installation
 Put both .cs files into your project
@@ -16,3 +17,4 @@ Call GetVerticesAndTriangles in PlyHandler. This will give you at minimum a list
 
 - Support for Binary Big Endian
 - Support for vertex colors for Ascii formatting
+- PLY exporting
